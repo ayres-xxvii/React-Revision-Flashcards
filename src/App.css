@@ -21,7 +21,7 @@ body {
 
 .container {
   max-width: 100%;
-  margin: 1rem 2rem;
+  padding: 1.0rem;
 }
 
 .card:nth-child(3n+1) {
@@ -39,8 +39,7 @@ body {
 
 
 .header {
-  display: flex;
-  justify-content: flex-end;
+
   align-items: center;
   flex-wrap: wrap;
   background-color: white;
@@ -82,7 +81,6 @@ body {
 
 .card {
   font-weight: 600;
-  width: 80px;
   height: 110px;
   padding: 80px 50px;
   color: white;
